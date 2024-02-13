@@ -15,7 +15,7 @@ const Questionnaire = () => {
     const storedSentences = JSON.parse(localStorage.getItem("sentences"));
     if (storedSentences) {
       setSentences(storedSentences);
-      setResponse(new Array(storedSentences.length).fill("")); // Initialize response array
+      setResponse(new Array(storedSentences.length).fill(""));
     }
   }, []);
 
@@ -62,7 +62,7 @@ const Questionnaire = () => {
                   {sentence}
                   <div className="radio-button">
                     <RadioButton
-                      selectedOption={response[index]} // Pass the selected option for this index
+                      selectedOption={response[index]}
                       onOptionChange={(value) =>
                         handleResponseChange(index, value)
                       }
