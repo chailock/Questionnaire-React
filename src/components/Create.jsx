@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Home from "./Home";
 const Create = () => {
-  // const [sentence, setSentence] = useState("");
-
   const [inputSentence, setInputSentence] = useState("");
   const [sentences, setSentences] = useState([]);
 

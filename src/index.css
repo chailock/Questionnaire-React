@@ -34,7 +34,7 @@ body{
 .wrapper .sidebar{
  width: 300px;
  height: 100%;
- background: #333333;
+ background:  #3498db;
  margin: 0px;
  padding: 0px;
  
@@ -72,8 +72,6 @@ body{
   padding: 60px;
 }
 
-
-
 .result {
   display: flex;
   flex-direction: row;
@@ -92,7 +90,7 @@ body{
   font-weight: bold;
   font-style: italic;
   font-size: 25px;
-  color: greenyellow;
+  color: #1e90ff;
 }
 
 span{
@@ -106,12 +104,6 @@ span{
   margin-right: 20px;
 }
 
-
-.questions{
-  list-style: none;
-  display: flex;
-  margin-top: 40px;
-}
 .container{
 
 margin-left: 340px;
@@ -121,6 +113,11 @@ max-width: 800px;
   padding-top: 70px;
   margin-left: 90px;
 }
+.questions{
+  list-style: none;
+  display: flex;
+  margin-top: 40px;
+}
 
 
 .creating h1{
@@ -128,20 +125,40 @@ max-width: 800px;
   margin-left: 150px;
 }
 .creating .shadow{
-  border: transparent;
+  border: none;
   width: 750px;
-  box-shadow: #333333;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  padding: 10px;
 }
+
 .list button{
   border: transparent;
   height: 50px;
   width: 100px;
   margin-left: 330px;
 }
+
 .list h1{
   margin-left: 230px;
-
 }
+
+ 
+  .box-input .icons i.fa-pen {
+    color: #1e90ff; 
+  }
+  
+   .box-input .icons i.fa-trash {
+    color: #ff0000; 
+  }
+
+
+
+
+
+
+
+
 .dash{
   padding-right: 50px;
 }
